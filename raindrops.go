@@ -14,6 +14,7 @@ func Convert(number int) string {
 	//
 	// If list is not empty return slice converted to string
 	// Else return number as string
+	// version is formatted
 	rain := make([]string, 0, 3)
 
 	if number%3 == 0 {
